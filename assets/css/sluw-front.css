@@ -1,0 +1,31 @@
+#sluw_save_lesson {	
+	margin: 10px;
+}
+#sluw_custom_margin {
+	margin-left: 127px;
+	font-weight: bold;
+}
+.sluw-lesson-purchase-btn {
+	position: absolute;
+    display: flex;
+    right: 30px;
+    top: 10px;
+}
+.sluw-lock-icon {
+	font-size: 24px;
+    top: 5px;
+    position: relative;
+    left: 5px;
+}
+#restrict-form{
+    display: inline-block;
+}
+#sluw_lesson_btn {
+    z-index: 1000;
+    position: relative;
+}
+.sluw-unlock-icon {
+    margin-right: 20px;
+    top: 7px;
+    color: #2fc52f;
+}

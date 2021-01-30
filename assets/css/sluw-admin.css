@@ -1,0 +1,26 @@
+#sluw_course_label {
+	margin-left: 50px;
+    margin-top: 10px;
+}
+#sluw_courses_list {
+	margin-left: -10px;
+	margin-top: 20px;
+}
+#sluw_submit {
+	margin-left: 198px;
+}
+.sluw-label {
+	font-size: 14px;
+	font-weight: 600;
+}
+.sluw-row {
+    display: flex;
+    padding: 10px 0px;
+}
+.sluw-title {
+	width: 15%;
+	font-weight: bold;
+}
+.sluw-data {
+	width: 50%;
+}
