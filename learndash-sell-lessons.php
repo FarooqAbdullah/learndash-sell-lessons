@@ -511,7 +511,7 @@ class Learndash_Sell_Lesson {
      * add menu page 
      */
     public function sluw_menu_page() {
-        add_submenu_page( 'learndash-lms', __( 'Lesson Sell Settings', SLUW_TEXT_DOMAIN ), __( 'Lesson Sell Settings', SLUW_TEXT_DOMAIN ), 'manage_options', 'sluw-options', [ $this, 'sluw_options_callback' ], $icon_url = '', $position = null );
+        add_submenu_page( 'learndash-lms', __( 'Sell LearnDash Lessons', SLUW_TEXT_DOMAIN ), __( 'Sell LearnDash Lessons', SLUW_TEXT_DOMAIN ), 'manage_options', 'sluw-options', [ $this, 'sluw_options_callback' ] );
     }
 
     /**
